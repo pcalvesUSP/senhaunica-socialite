@@ -132,7 +132,8 @@ SENHAUNICA_DISABLE_LOGINAS=
 # Controla se a sessão deve ser persistida (default = true)
 SENHAUNICA_REMEMBER_SESSION=
 
-
+# Desliga ou liga consultas ao replicado, mesmo que ele exista no composer.json (default = true)
+SENHAUNICA_USAR_REPLICADO=false
 ```
 
 ### [Permissões e funções da aplicação](docs/permissions.md)

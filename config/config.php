@@ -86,5 +86,7 @@ return [
     'rememberSession' => (bool) env('SENHAUNICA_REMEMBER_SESSION', true),
 
 
+    'usar_replicado' => (bool) env('SENHAUNICA_USAR_REPLICADO', true),
+
     // SENHAUNICA_KEY e SENHAUNICA_SECRET são carregados em services.php da biblioteca
 ];
